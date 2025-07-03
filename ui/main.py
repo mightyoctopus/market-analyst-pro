@@ -10,17 +10,17 @@ import streamlit as st
 
 load_dotenv()
 
-llm_config = {
-    "model": "gpt-4.1-mini",
-    "api_key": os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"],
-    "temperature": 0.8,
-    "timeout": 60,
-}
-
-date = datetime.now().strftime("%Y-%m-%d")
-
 
 def main():
+
+    llm_config = {
+        "model": "gpt-4.1-mini",
+        "api_key": os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"],
+        "temperature": 0.8,
+        "timeout": 60,
+    }
+
+    date = datetime.now().strftime("%Y-%m-%d")
 
     col1, col2 = st.columns(2)
 
