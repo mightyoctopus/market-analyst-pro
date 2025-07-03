@@ -12,7 +12,7 @@ load_dotenv()
 
 llm_config = {
     "model": "gpt-4.1-mini",
-    "api_key": os.getenv("OPENAI_API_KEY") or st.secrets("OPENAI_API_KEY"),
+    "api_key": os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"],
     "temperature": 0.8,
     "timeout": 60,
 }
