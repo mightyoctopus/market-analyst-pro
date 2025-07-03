@@ -26,10 +26,12 @@ Market Analyst Pro is a multi-agent AI dashboard that delivers data-driven stock
 
 
 ## How to Use
-![demo1.png](assets/demo1.png)
 1. Type in stocks that you want to analyze. It should be the full name of the stock or ticker symbol (e.g. NVDA, TSLA), comma separated if multiple stocks.
-![demo2.png](assets/demo2.png)
+![demo1.png](assets/demo1.png)
+
 2. Click on the Start Analysis button and wait a few minutes while the agents are carrying out the step by step data analysis process.
+![demo2.png](assets/demo2.png)
+
 3. When the analysis is complete, the result will come down on the screen in an organized format, for example:
 ![demo3.png](assets/demo3.png)
 ![demo4.png](assets/demo4.png)
